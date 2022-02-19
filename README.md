@@ -1,7 +1,6 @@
 # React JS Resume Web App CV      
 ![ReactJS Resume Website CV](demo.jpg?raw=true "ReactJS Resume Website CV")
 ### <a href="https://cv-kanan.herokuapp.com/">LIVE DEMO</a> 
-### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project 
 
 # Getting Started with Create React App
 
