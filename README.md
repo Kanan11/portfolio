@@ -2,9 +2,6 @@
 ![ReactJS Resume Website CV](demo.jpg?raw=true "ReactJS Resume Website CV")
 ### <a href="https://cv-kanan.herokuapp.com/">LIVE DEMO</a> 
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
