@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Blob } from 'react-blob'
+
 
 class About extends Component {
   render() {
@@ -20,7 +22,33 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+         <Blob
+          className="blob"
+          size="34vh"
+          style={{
+            border: "3px solid orange",
+            position: 'absolute',
+            //top: '15%',
+            right: '35%',
+            zIndex: 0,
+            backgroundColor: '#eaeff5',
+            color: 'grey',
+            height: '380px',
+            //width: '350px',
+            //opacity: 7.05,
+            fontSize: '3vh'
+            }}
+        >
+            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                <img
+                    className="img"
+                    src={profilepic}
+                    alt="Kanan Garaisayev"
+                    style={{marginBottom: '1rem', borderRadius: '55px', maxWidth: '210px'}}
+                    />
+                <span>{name}</span>
+            </div>
+        </Blob>
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>

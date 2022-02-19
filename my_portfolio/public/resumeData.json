@@ -14,8 +14,8 @@
       "state": "Sweden",
       "zip": "41000"
     },
-    "website": "http://www.luxar.se",
-    "resumedownload": "http://luxar.se",
+    "website": "http://www.luxar.se/cv",
+    "resumedownload": "/doc/cv.pdf",
     "social": [
       {
         "name": "facebook",
