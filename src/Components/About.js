@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Blob } from 'react-blob'
 
-
 class About extends Component {
   render() {
 

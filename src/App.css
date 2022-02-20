@@ -1,0 +1,100 @@
+ 
+  /*====================
+          CARROUSEL
+  ======================*/
+  
+  .carrousel_wrapper {
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .carrousel_image {
+    background-size: cover !important;
+  }
+  
+  .artist_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    /* height: 160px; */
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+  }
+  
+  .artist_name .wrapper {
+    border: 2px solid white;
+    height: 121px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+    text-transform: uppercase;
+  }
+  
+  /*====================
+          COUNTDOWN
+  ======================*/
+  
+  .countdown_wrapper {
+    position: absolute;
+    bottom: 0px;
+    color: #ffffff;
+    opacity: 0.5
+  }
+  
+  .countdown_wrapper .countdown_top {
+    background: #212121;
+    font-size: 19px;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  
+  .countdown_wrapper .countdown_bottom {
+    display: flex;
+    background: #616161;
+    padding: 10px 20px;
+  }
+  
+  .countdown_wrapper .countdown_time {
+    font-size: 50px;
+    border-right: 1px solid #eeeeee;
+    margin-right: 14px;
+    padding-right: 49px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+  }
+  .countdown_wrapper .countdown_item:last-child .countdown_time {
+    border: none;
+  }
+  
+  .countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 7px;
+  }
+  
+
+  .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+ 
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+ }
+ header .scrolldown a:hover { color: #11ABB0; }

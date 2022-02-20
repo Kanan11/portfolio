@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Featured from "./featured";
 
 class Footer extends Component {
   render() {
@@ -12,6 +13,7 @@ class Footer extends Component {
     return (
       <footer>
 
+     <Featured/>
      <div className="row">
         <div className="twelve columns">
            <ul className="social-links">
