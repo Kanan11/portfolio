@@ -22,21 +22,19 @@ class About extends Component {
       <div className="row about_media">
          <div className="three columns">
             <Blob
-            className="blob"
-            size="34vh"
+            className="profile-pic"
+            size="30vh"
             style={{
                border: "3px solid orange",
-               position: 'absolute',
-               //top: '15%',
+               top: '15%',
                right: '35%',
                zIndex: 0,
                backgroundColor: '#eaeff5',
                color: 'grey',
                height: '380px',
-               //width: '350px',
-               //opacity: 7.05,
+               opacity: 47.05,
                fontSize: '3vh'
-               }}
+            }}
          >
                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                   <img
