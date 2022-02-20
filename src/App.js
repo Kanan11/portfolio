@@ -48,7 +48,7 @@ class App extends Component {
     return (
       <div className="App">
         <div style={{ height: '50px' }}>
-          <ParticlesBg type="random" bg={true}/>
+          <ParticlesBg type="circle" bg={true}/>
         </div>
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
