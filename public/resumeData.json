@@ -2,10 +2,10 @@
   "main": {
     "name": "Kanan Garaisayev",
     "occupation": "Web Developer",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description": "junior programmer which have big ambitions in active searching",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio": "Positive, energetic, mobile moving, likes to work in teams and independently, can speak and write in five different languages.",
+    "contactmessage": "I will reply to your message as soon as I can",
     "email": "kenan@luxar.se",
     "phone": "0700000000",
     "address": {
@@ -16,10 +16,11 @@
     },
     "website": "http://www.luxar.se/cv",
     "resumedownload": "/doc/cv.pdf",
+    "resumedownload_sw": "/doc/cv_sw.pdf",
     "social": [
       {
         "name": "facebook",
-        "url": "http://facebook.com",
+        "url": "http://facebook.com/garaisayev",
         "className": "fa fa-facebook"
       },
       {
@@ -39,53 +40,121 @@
       },
       {
         "name": "github",
-        "url": "http://github.com",
+        "url": "http://github.com/kanan11",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "also Adobe Photoshop, Corel Draw, ect...",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Medieinstitutet Gothenburg Sweden",
+        "degree": "Web developer in E-commerce",
+        "graduated": "May 2022",
+        "description": "Front and backend development - HTML5, CSS3, JavaScript, React, Vue, PHP, WordPress and SQL. System support and third party systems, responsive web development and connection with E-commerce systems.",
+        "url": "https://medieinstitutet.se/utbildningar/webbutvecklare-inom-e-handel/"
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of Paul Valery in France",
+        "degree": "Master 2",
+        "graduated": "2009 - 2010",
+        "description": "International Management of Small and Medium Enterprises and Logistics / Economic and Social Administration (AES-UFR3)",
+        "url": "https://univ-montp3.fr"
+      },
+      {
+        "school": "University Montpellier 1 in France",
+        "degree": "University diploma (DU)",
+        "graduated": "2007 - 2009",
+        "description": "Management Organizations in Social Economics",
+        "url": "https://www.umontpellier.fr/en/"
+      },
+      {
+        "school": "University Montpellier 1 in France",
+        "degree": "Master 1",
+        "graduated": "2006 - 2007",
+        "description": "Revision of HSE (Safety Environment and Quality) with ISO Standarts",
+        "url": "https://droit.edu.umontpellier.fr/"
+      },
+      {
+        "school": "University Montpellier 1 in France",
+        "degree": "Licens 3 – BAC+3",
+        "graduated": "2005 - 2006",
+        "description": "Faculty of Law and Political Science of Montpellier, IUP (Institut av Universitets professionalisering)",
+        "url": "https://droit.edu.umontpellier.fr/"
+      },
+      {
+        "school": "Architecture and Construction University of Azerbaijan",
+        "degree": "Master 2 and Baccalaureate degree",
+        "graduated": "1999 - 2005",
+        "description": "Civil Construction Engineer / City and municipal construction and economy",
+        "url": "https://www.azmiu.edu.az/en"
       }
     ],
     "work": [
       {
-        "company": "Studio",
-        "title": "Junior UX God ",
-        "years": "March 2022 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Luxar AB",
+        "title": "Owner",
+        "years": "2019 - up to present",
+        "description": "Transport and Internet online sales",
+        "url": "https://luxar.se/"
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
+        "company": "“KredAqro” Non Banking Credit Organization LLC",
+        "title": "Regional Legal Advisor",
+        "years": "2017 - 2019",
+        "description": "Advocacy in court and enfoncement officers",
+        "url": "https://kredaqro.com/"
+      },
+      {
+        "company": "“QOCALI” Collector LLC",
+        "title": "Director General and Lawyer.",
         "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "The official representative of “YapiKredi Bank” CJSC, collector service",
+        "url": "https://www.yapikredi.com.tr/"
+      },
+      {
+        "company": "”Danone” LLC in Fos-sur-Mer, France",
+        "title": "Export Manager's assistant",
+        "years": "2009 - 2010 - February 2010",
+        "description": "Contact with overseas buyers by B2B systems and receive order registration.",
+        "url": "https://www.danone.fr/"
+      }
+    ],
+    "language": [
+      {
+        "name": "Swedish",
+        "level": "90%"
+      },
+      {
+        "name": "English",
+        "level": "80%"
+      },
+      {
+        "name": "French",
+        "level": "85%"
+      },
+      {
+        "name": "Russian",
+        "level": "99%"
+      },
+      {
+        "name": "Turkish",
+        "level": "75%"
       }
     ],
     "skills": [
       {
         "name": "Git",
-        "level": "60%"
+        "level": "80%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
+        "name": "WordPress",
+        "level": "45%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "65%"
       },
       {
         "name": "CSS",
@@ -93,31 +162,39 @@
       },
       {
         "name": "HTML5",
-        "level": "80%"
+        "level": "85%"
       },
       {
         "name": "VueJs",
         "level": "50%"
       },
       {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "PHP",
+        "level": "40%"
+      },
+      {
+        "name": "SQL",
+        "level": "55%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
+        "title": "Hemlagat Restaurang",
+        "category": "Front END ReactJS / Back END Express",
         "image": "Hemlagat.jpg",
-        "url": "http://www.luxar.se"
+        "url": "https://mat-three.vercel.app/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "Hemlagat_2.jpg",
-        "url": "http://www.luxar.se"
+        "title": "WordPress",
+        "category": "wooCommerce e-shop",
+        "image": "labb_1.png",
+        "url": "https://github.com/Kanan11/WordPress_LABB_2"
       }
     ]
   },
