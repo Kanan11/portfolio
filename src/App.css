@@ -76,4 +76,9 @@
     font-size: 20px;
     padding-left: 7px;
   }
-  
+
+  /* Life hack to change text selection color */
+  *::selection {
+      background: #fd8775;
+      color: rgb(88, 21, 24);
+  }

@@ -2,7 +2,7 @@
   "main": {
     "name": "Kanan Garaisayev",
     "occupation": "Web Developer",
-    "description": "junior programmer which have big ambitions in active searching",
+    "description": "junior programmer which have big ambitions and who is in active searching",
     "image": "profilepic.jpg",
     "bio": "Positive, energetic, mobile moving, likes to work in teams and independently, can speak and write in five different languages.",
     "contactmessage": "I will reply to your message as soon as I can",
@@ -10,7 +10,7 @@
     "phone": "0700000000",
     "address": {
       "street": "Storagatan 1",
-      "city": "Göteborg",
+      "city": "Gothenburg",
       "state": "Sweden",
       "zip": "41000"
     },
@@ -42,6 +42,11 @@
         "name": "github",
         "url": "http://github.com/kanan11",
         "className": "fa fa-github"
+      },
+      {
+        "name": "Skype",
+        "url": "https://join.skype.com/invite/Cmvwl24DYtnT",
+        "className": "fa fa-skype"
       }
     ]
   },
