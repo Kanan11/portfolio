@@ -61,13 +61,13 @@ class About extends Component {
 						         {city} {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <a href={`mailto:${email}`}>{email}</a>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume in English</a>
-                     <a href={resumeDownload_sw} className="button"><i className="fa fa-download"></i>Download Resume in Swedish</a>
+                     <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume in English</a>
+                     <a href={resumeDownload_sw} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume in Swedish</a>
                   </p>
                </div>
             </div>
