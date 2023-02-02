@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 function SendEmailForm() {
-  const [contactName, setContactName] = useState('');
+  const [contactName, setContactName] = useState('Mail sander name ');
   const [contactEmail, setContactEmail] = useState('kenan@luxar.se');
-  const [contactSubject, setContactSubject] = useState('');
-  const [contactMessage, setContactMessage] = useState('');
+  const [contactSubject, setContactSubject] = useState('I want to be in touch with you! ');
+  const [contactMessage, setContactMessage] = useState('Text to send ');
     function sended () {
 
         console.log("Submitted");
