@@ -27,7 +27,7 @@ class Contact extends Component {
          </div>
          <div className="row">
             <div className="eight columns">
-               <form action="" method="post" id="contactForm" name="contactForm">
+               {/* <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
@@ -53,11 +53,11 @@ class Contact extends Component {
                   </div>
 					</fieldset>
 				   </form>
-                     <MailSender />
-           <div id="message-warning"> Error boy</div>
+               <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
+               <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+            </div> */}
+            <MailSender />
            </div>
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
