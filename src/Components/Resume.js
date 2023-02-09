@@ -11,7 +11,7 @@ class Resume extends Component {
         <p>{education.description}</p></div>
       })
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><a href={work.url} title={work.url}><h3 className='hover' target="_blank">{work.company}</h3></a>
+        return <div key={work.company}><a href={work.url} title={work.url} target="_blank" rel="noreferrer"><h3 className='hover' target="_blank">{work.company}</h3></a>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>

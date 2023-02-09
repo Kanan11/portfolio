@@ -84,7 +84,7 @@
       },
       {
         "school": "University Montpellier 1 in France",
-        "degree": "Licens 3 – BAC+3",
+        "degree": "Licens 3 - BAC+3",
         "graduated": "2005 - 2006",
         "description": "Faculty of Law and Political Science of Montpellier, IUP (Institut av Universitets professionalisering)",
         "url": "https://droit.edu.umontpellier.fr/"
@@ -98,6 +98,13 @@
       }
     ],
     "work": [
+      {
+        "company": "WorkPrecision",
+        "title": "Front-End Developer",
+        "years": "2022 - 2023",
+        "description": "React TypeScript Project With Material UI & React Router",
+        "url": "https://www.workprecision.com/"
+      },
       {
         "company": "Luxar AB",
         "title": "Owner",
@@ -130,7 +137,7 @@
     "language": [
       {
         "name": "Swedish",
-        "level": "90%"
+        "level": "95%"
       },
       {
         "name": "English",
@@ -138,7 +145,7 @@
       },
       {
         "name": "French",
-        "level": "85%"
+        "level": "95%"
       },
       {
         "name": "Russian",
@@ -146,7 +153,7 @@
       },
       {
         "name": "Turkish",
-        "level": "75%"
+        "level": "60%"
       }
     ],
     "skills": [
@@ -160,7 +167,7 @@
       },
       {
         "name": "ReactJs",
-        "level": "65%"
+        "level": "75%"
       },
       {
         "name": "CSS",
@@ -171,20 +178,20 @@
         "level": "85%"
       },
       {
-        "name": "VueJs",
+        "name": "Svelte",
         "level": "50%"
       },
       {
         "name": "JavaScript",
-        "level": "85%"
+        "level": "95%"
       },
       {
-        "name": "PHP",
-        "level": "40%"
+        "name": "TypeScript",
+        "level": "95%"
       },
       {
-        "name": "SQL",
-        "level": "55%"
+        "name": "Material UI",
+        "level": "75%"
       }
     ]
   },
