@@ -16,8 +16,8 @@
       "zip": "41000"
     },
     "website": "http://www.luxar.se",
-    "resumedownload": "/doc/cv.pdf",
-    "resumedownload_sw": "/doc/cv_sw.pdf",
+    "resumedownload": "/doc/CV-Garaisayev-Kanan-ENG.pdf",
+    "resumedownload_sw": "/doc/CV-Garaisayev-Kanan-SWE.pdf",
     "social": [
       {
         "name": "facebook",
@@ -48,6 +48,11 @@
         "name": "Skype",
         "url": "https://join.skype.com/invite/Cmvwl24DYtnT",
         "className": "fa fa-skype"
+      },
+      {
+        "name": "Bitbucket",
+        "url": "https://bitbucket.org/Kanan11/",
+        "className": "fa fa-bitbucket"
       }
     ]
   },
@@ -57,7 +62,7 @@
       {
         "school": "Medieinstitutet Gothenburg Sweden",
         "degree": "Web developer in E-commerce",
-        "graduated": "May 2022",
+        "graduated": "2020 - 2022",
         "description": "Front and backend development - HTML5, CSS3, JavaScript, React, Vue, PHP, WordPress and SQL. System support and third party systems, responsive web development and connection with E-commerce systems.",
         "url": "https://medieinstitutet.se/utbildningar/webbutvecklare-inom-e-handel/"
       },
@@ -101,7 +106,7 @@
       {
         "company": "WorkPrecision",
         "title": "Front-End Developer",
-        "years": "2022 - 2023",
+        "years": "2022 - up to present",
         "description": "React TypeScript Project With Material UI & React Router",
         "url": "https://www.workprecision.com/"
       },
