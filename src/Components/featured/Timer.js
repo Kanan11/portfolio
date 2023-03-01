@@ -6,7 +6,7 @@ const Timer = () => {
   return (
     <Slide left delay={500}>
       <div className="countdown_wrapper">
-        <div className="countdown_top">The time is</div>
+        <div className="countdown_top"></div>
 
         <div className="countdown_bottom">
           <div className="countdown_item">

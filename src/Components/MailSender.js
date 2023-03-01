@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 function SendEmailForm() {
-  const [contactName, setContactName] = useState('Sander name ');
+  const [contactName, setContactName] = useState('Sender name ');
   const [contactEmail, setContactEmail] = useState('kenan@luxar.se');
-  const [contactSubject, setContactSubject] = useState('I want to be in touch with you! ');
+  const [contactSubject, setContactSubject] = useState('');
   const [contactMessage, setContactMessage] = useState('Text to send ');
     function sended () {
 
@@ -48,7 +48,7 @@ function SendEmailForm() {
         onChange={(e) => setContactMessage(e.target.value)}
       />
       <button className="submit" onClick={handleSubmit}>
-        Send mail to Kanan
+        Send mail
       </button>
     </form>
   );

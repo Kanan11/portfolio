@@ -2,10 +2,11 @@
   "main": {
     "name": "Kanan Garaisayev",
     "occupation": "Web Developer",
-    "text": "and a junior programmer with high ambitious",
-    "description": "Also I'm positive, mobile to moving, I like working in team and independently and who is actively looking for a job. I can speak and write in five different languages.",
+    "text": "I’m mostly comfortable in frontend but have fullstack ambitions.",
+    "textTwo": "I’m a junior ",
+    "description": "Also I’m positive, I live in Gothenburg but open to relocation, I like working in a team or independently. I’m the kind of individual who actively takes action and seek resolution when presented with a problem.    I can speak and write in five different languages.",
     "image": "profilepic.jpg",
-    "bio": "Positive, energetic, mobile moving, likes to work in teams and independently, can speak and write in five different languages.",
+    "bio": "Some text About me",
     "contactmessage": "I will reply to your message as soon as I can",
     "email": "kenan@luxar.se",
     "phone": "0700000000",
@@ -15,29 +16,29 @@
       "state": "Sweden",
       "zip": "41000"
     },
-    "website": "http://www.luxar.se",
+    "website": "#",
     "resumedownload": "/doc/CV-Garaisayev-Kanan-ENG.pdf",
     "resumedownload_sw": "/doc/CV-Garaisayev-Kanan-SWE.pdf",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/garaisayev",
-        "className": "fa fa-facebook"
+        "name_": "facebook",
+        "url_": "http://facebook.com/garaisayev",
+        "className_": "fa fa-facebook"
       },
       {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
+        "name_": "twitter",
+        "url_": "http://twitter.com",
+        "className_": "fa fa-twitter"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/kanan-garaisayev-13972631/",
-        "className": "fa fa-linkedin"
+        "name_": "linkedin",
+        "url_": "https://www.linkedin.com/in/kanan-garaisayev-13972631/",
+        "className_": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com",
-        "className": "fa fa-instagram"
+        "name_": "instagram",
+        "url_": "http://instagram.com",
+        "className_": "fa fa-instagram"
       },
       {
         "name": "github",
@@ -50,9 +51,14 @@
         "className": "fa fa-skype"
       },
       {
-        "name": "Bitbucket",
-        "url": "https://bitbucket.org/Kanan11/",
-        "className": "fa fa-bitbucket"
+        "name": "Mail me",
+        "url": "mailto:kenan@luxar.se",
+        "className": "fa fa-envelope"
+      },
+      {
+        "name_": "Bitbucket",
+        "url_": "https://bitbucket.org/Kanan11/",
+        "className_": "fa fa-bitbucket"
       }
     ]
   },
@@ -104,11 +110,25 @@
     ],
     "work": [
       {
-        "company": "WorkPrecision",
+        "company": "Decentlabs AB",
+        "title": "Junior Backend Developer",
+        "years": "2023 - up to present",
+        "description": "Test Driven Development, NodeJS, Express JS, Redis, REST/API, I helped develop a B2B integration.",
+        "url": ""
+      },
+      {
+        "company": "WorkPrecision AB",
         "title": "Front-End Developer",
-        "years": "2022 - up to present",
+        "years": "2022 - 2023",
         "description": "React TypeScript Project With Material UI & React Router",
         "url": "https://www.workprecision.com/"
+      },
+      {
+        "company": "Decentlabs AB",
+        "title": "Junior Frontend Devloper",
+        "years": "2021 - 2022",
+        "description": "React, Javascript, CSS, HTML, git, github, websockets, responsive/mobile I was tasked to develop the frontend for a realtime social app.",
+        "url": ""
       },
       {
         "company": "Luxar AB",
@@ -146,7 +166,7 @@
       },
       {
         "name": "English",
-        "level": "80%"
+        "level": "90%"
       },
       {
         "name": "French",
@@ -172,7 +192,7 @@
       },
       {
         "name": "ReactJs",
-        "level": "75%"
+        "level": "85%"
       },
       {
         "name": "CSS",
@@ -184,7 +204,7 @@
       },
       {
         "name": "Svelte",
-        "level": "50%"
+        "level": "40%"
       },
       {
         "name": "JavaScript",
@@ -197,6 +217,22 @@
       {
         "name": "Material UI",
         "level": "75%"
+      },
+      {
+        "name": "Cypress Test",
+        "level": "45%"
+      },
+      {
+        "name": "Redis DB",
+        "level": "35%"
+      },
+      {
+        "name": "PHP",
+        "level": "25%"
+      },
+      {
+        "name": "MySQL DB",
+        "level": "55%"
       }
     ]
   },
@@ -204,7 +240,7 @@
     "projects": [
       {
         "title": "Hemlagat Restaurang",
-        "category": "Front END ReactJS / Back END Express",
+        "category": "Front-End ReactJS / Back-End Express",
         "image": "Hemlagat.jpg",
         "url": "https://mat-three.vercel.app/"
       },

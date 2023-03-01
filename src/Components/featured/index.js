@@ -10,7 +10,7 @@ const Featured = () => {
       <div className="artist_name">
         <div className="wrapper">
           <Typed
-            strings={["Kanan Garaisayev", "Web Developer", "Thank you for your Attention!"]}
+            strings={["Kanan Garaisayev", "Web Developer"]}
             typeSpeed={50}
             backSpeed={90}
             loop

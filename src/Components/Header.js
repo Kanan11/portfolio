@@ -8,7 +8,8 @@ class Header extends Component {
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var text= this.props.data.text;
-      var city= this.props.data.address.city;
+      var textTwo= this.props.data.textTwo;
+      // var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -26,9 +27,9 @@ class Header extends Component {
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+           {/*  <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#testimonials">Recommendations</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
 
       </nav>
@@ -36,7 +37,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm <span style={{color: "#6885a7"}}>{name}</span>.</h1>
-            <h3>I'm a <span>{occupation}</span> {text} who lives in {city}. {description}.</h3>
+            <h3>{textTwo}<span> {occupation}</span> {text} {description}.</h3>
             <hr />
             <ul className="social">
                {networks}
