@@ -1,6 +1,6 @@
 # React JS Resume Web App CV      
 ![ReactJS Resume Website CV](demo.jpg?raw=true "ReactJS Resume Website CV")
-### <a href="https://cv-kanan.herokuapp.com/">LIVE DEMO</a> 
+### <a href="https://642c942298596e103a928b0d--chic-pavlova-0f060d.netlify.app/">LIVE DEMO</a> 
 
 
 ## Available Scripts
