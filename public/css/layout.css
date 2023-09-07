@@ -40,6 +40,22 @@ header {
    overflow: hidden;
 }
 
+.letter {
+   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+   .letter {
+     font-size: 16px;
+   }
+ }
+ @media (max-width: 480px) {
+   .letter {
+     font-size: 14px;
+   }
+ }
+ 
+
 /* vertically center banner section */
 header:before {
    content: '';
