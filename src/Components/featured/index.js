@@ -10,9 +10,9 @@ const Featured = () => {
       <div className="artist_name">
         <div className="wrapper">
           <Typed
-            strings={["Kanan Garaisayev", "Web Developer"]}
-            typeSpeed={50}
-            backSpeed={90}
+            strings={["Kanan Garaisayev", "Web Developer", "Welcome Back"]}
+            typeSpeed={95}
+            backSpeed={40}
             loop
           />
         </div>

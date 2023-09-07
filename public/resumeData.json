@@ -3,7 +3,7 @@
     "name": "Kanan Garaisayev",
     "occupation": "Web Developer",
     "text": "I’m mostly comfortable in frontend but have fullstack ambitions.",
-    "textTwo": "I’m a junior ",
+    "textTwo": "I’m a ",
     "description": "I live in Gothenburg but open to relocation, I like working in a team or independently. I’m the kind of individual who actively takes action and seek resolution when presented with a problem.    I can speak and write in five different languages.",
     "image": "profilepic.jpg",
     "bio": "Some text About me",
@@ -111,10 +111,16 @@
     "work": [
       {
         "company": "Decentlabs AB",
-        "title": "Junior Backend Developer",
+        "title": "Fullstack Developer",
         "years": "2023 - up to present",
         "description": "Test Driven Development, NodeJS, Express JS, Redis, REST/API, I helped develop a B2B integration.",
-        "url": ""
+        "url": "https://decentlabs.se/"
+      },{
+        "company": "CS Pack AB",
+        "title": "IT consult",
+        "years": "2023 - up to present",
+        "description": "SEO optimization and Security of WebShop",
+        "url": "https://www.molndalspizzagrill.se/"
       },
       {
         "company": "WorkPrecision AB",
@@ -125,10 +131,10 @@
       },
       {
         "company": "Decentlabs AB",
-        "title": "Junior Frontend Devloper",
+        "title": "Frontend Devloper",
         "years": "2021 - 2022",
         "description": "React, Javascript, CSS, HTML, git, github, websockets, responsive/mobile I was tasked to develop the frontend for a realtime social app.",
-        "url": ""
+        "url": "https://decentlabs.se/"
       },
       {
         "company": "Luxar AB",
@@ -232,6 +238,50 @@
       },
       {
         "name": "MySQL DB",
+        "level": "55%"
+      },
+      {
+        "name": "Agile Methodes",
+        "level": "55%"
+      },
+      {
+        "name": "SEO optimization",
+        "level": "55%"
+      },
+      {
+        "name": "Strapi CMS",
+        "level": "55%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "55%"
+      },
+      {
+        "name": "Stripe",
+        "level": "55%"
+      },
+      {
+        "name": "Formik",
+        "level": "55%"
+      },
+      {
+        "name": "Redux Store",
+        "level": "55%"
+      },
+      {
+        "name": "Digital Ocean",
+        "level": "55%"
+      },
+      {
+        "name": "Docker",
+        "level": "55%"
+      },
+      {
+        "name": "Bitbucket",
+        "level": "55%"
+      },
+      {
+        "name": "Jira",
         "level": "55%"
       }
     ]

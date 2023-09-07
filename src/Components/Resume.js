@@ -18,11 +18,11 @@ class Resume extends Component {
       })
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level, backgroundColor: 'rgb(104, 133, 167)' }}className={className}></span><em>{skills.name}</em></li>
+        return <li key={skills.name}><span style={{width:skills.level, /* backgroundColor: 'rgb(104, 133, 167)' */ }}className={className}></span><em>{skills.name}</em></li>
       })
       var language = this.props.data.language.map(function(language){
         var className = 'bar-expand '+language.name.toLowerCase();
-        return <li key={language.name}><span style={{width:language.level, backgroundColor: 'coral'}}className={className}></span><em>{language.name}</em></li>
+        return <li key={language.name}><span style={{width:language.level, /* backgroundColor: 'coral' */}}className={className}></span><em>{language.name}</em></li>
       })
     }
 

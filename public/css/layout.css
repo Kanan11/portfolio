@@ -300,11 +300,15 @@ ul#nav li.current a { color: #F06000; }
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
+   display: flex;
+   flex-flow: wrap;
+   justify-content: space-between;
+   
 }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	/* background: #ccc; */
   	height: 42px;
   	border-radius: 3px;
 }
@@ -316,6 +320,7 @@ ul#nav li.current a { color: #F06000; }
 	font-weight: normal;
    position: relative;
 	top: -36px;
+   margin-right: 20px;
 }
 .bar-expand {
    position: absolute;
@@ -324,7 +329,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	/* background: #313131; */
    display: inline-block;
   	height: 42px;
    line-height: 42px;
