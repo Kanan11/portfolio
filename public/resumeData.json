@@ -31,14 +31,14 @@
         "className_": "fa fa-twitter"
       },
       {
-        "name_": "linkedin",
-        "url_": "https://www.linkedin.com/in/kanan-garaisayev-13972631/",
-        "className_": "fa fa-linkedin"
-      },
-      {
         "name_": "instagram",
         "url_": "http://instagram.com",
         "className_": "fa fa-instagram"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kanan-garaisayev-13972631/",
+        "className": "fa fa-linkedin"
       },
       {
         "name": "github",
@@ -54,6 +54,11 @@
         "name": "Mail me",
         "url": "mailto:kenan@luxar.se",
         "className": "fa fa-envelope"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.com/users/kanan8631",
+        "className": "fa-brands fa-discord"
       },
       {
         "name_": "Bitbucket",
