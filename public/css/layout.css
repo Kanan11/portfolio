@@ -40,19 +40,38 @@ header {
    overflow: hidden;
 }
 
+#home {
+   color: #11ABB0;
+}
+ 
+
 .letter {
    font-size: 20px;
 }
-
 @media (max-width: 768px) {
    .letter {
      font-size: 16px;
    }
+   .truncated-text {
+      display: block;
+      max-width: 550px; 
+      max-height: 15em; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
  }
  @media (max-width: 480px) {
    .letter {
      font-size: 14px;
    }
+   .truncated-text {
+      display: block;
+      max-width: 300px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
  }
  
 

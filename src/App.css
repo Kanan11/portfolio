@@ -21,7 +21,6 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border: 2px solid white;
-    margin-bottom: 10px;
   }
   
   .artist_name .wrapper {

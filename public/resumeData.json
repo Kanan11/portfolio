@@ -1,10 +1,11 @@
 {
   "main": {
     "name": "Kanan Garaisayev",
-    "occupation": "Web Developer",
-    "text": "with a primary focus on frontend development, although I also have ambitions to become a fullstack developer. Currently, I reside in Gothenburg, Sweden, but I am open to the possibility of relocating for the right opportunity.",
-    "textTwo": "I’m a ",
-    "description": "I thrive in collaborative environments and am equally comfortable working independently. I possess a proactive problem-solving approach, and I actively seek solutions when faced with challenges. One of my notable skills is my ability to communicate effectively in multiple languages, which enables me to connect with diverse audiences and work on international projects with ease. In my journey as a web developer, I am driven by a passion for creating user-friendly and visually appealing web experiences",
+    "textTwo": "a",
+    "occupation": " Web Developer ",
+    "text": "with a primary focus on frontend development, aspiring to evolve into a fullstack developer. Currently based in Gothenburg, Sweden, I am open to relocating for the right opportunity. I thrive in collaborative environments and am equally adept at working independently. My proactive problem-solving approach empowers me to actively seek solutions when faced with challenges.",
+    "description": "In frontend development, I excel, demonstrating a strong proficiency in creating compelling and user-friendly interfaces. On the backend, my strengths lie in my knowledge of NodeJS and the ability to build SQL databases that work seamlessly together. These skills enable me to successfully develop and maintain the server-side of web applications. Additionally, I have extensive experience building local AI models using PyTorch in Python. My hands-on practice with PyTorch contributes to my expertise in implementing artificial intelligence solutions, enhancing the overall functionality and innovation potential of web projects. Furthermore, my comprehensive understanding of E-commerce integration is demonstrated through successful implementations with payment gateways such as Stripe and Klarna systems. This proficiency ensures seamless transactions and a secure online shopping experience for users.",
+    "description2": "Moreover, My skills extend to implementing best practices in working with server-side technologies, including Pipelines for efficient workflow automation, utilizing Docker for containerization, and employing Composers for enhanced deployment efficiency and reliability. Beyond my technical expertise, I bring additional value to projects through excellent communication skills in multiple languages. This allows me to effectively engage with diverse audiences and contribute seamlessly to international projects. Throughout my journey as a web developer, I am fueled by a passion for crafting user-friendly and visually appealing web experiences.",
     "image": "profilepic.jpg",
     "bio": "Some text About me",
     "contactmessage": "I will reply to your message as soon as I can",

@@ -7,6 +7,7 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
+      var description2= this.props.data.description2;
       var text= this.props.data.text;
       var textTwo= this.props.data.textTwo;
       // var city= this.props.data.address.city;
@@ -16,7 +17,7 @@ class Header extends Component {
     }
 
     return (
-      <header id="home">
+      <header id="home" style={{ maxHeight: '700px' }}>
 
       <nav id="nav-wrap">
 
@@ -36,8 +37,14 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm <span style={{color: "#6885a7"}}>{name}</span>.</h1>
-            <span className='letter'>{textTwo}<span> {occupation}</span> {text} {description}.</span>
+            <h2 className="responsive-headline">I'm <span style={{color: "#6885a7"}}>{name}</span></h2>
+            <span style={{ fontFamily: 'Courier New' }}>{textTwo}</span> 
+            <span className='letter' style={{ fontWeight: 'bold', fontFamily: 'Courier New' }}>{occupation}</span>
+            <span style={{ fontFamily: 'Courier New' }}>{text}</span>
+            <br/><br/>
+            <span className="truncated-text" style={{ fontFamily: 'Courier New' }}>{description}</span>
+            <br/><br/>
+            <span className="truncated-text" style={{ fontFamily: 'Courier New' }}>{description2}</span>
             <hr />
             <ul className="social">
                {networks}
