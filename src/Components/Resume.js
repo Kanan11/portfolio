@@ -16,10 +16,24 @@ class Resume extends Component {
             <p>{work.description}</p>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
+
+      /* var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level, /* backgroundColor: 'rgb(104, 133, 167)' */ }}className={className}></span><em>{skills.name}</em></li>
-      })
+        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      }) 
+      */
+      
+      var skillsList = this.props.data.skills2.map((category) => (
+            <ul key={category.categoryName} className="ul-skills">
+            <li>{category.categoryName}</li>
+            <ul className='ul-skills2'>
+               {category.skills.map((skill) => (
+                  <li className='li-skills' key={skill.name}>{skill.name} {/* {skill.level} */}</li>
+                  ))}
+            </ul>
+            </ul>
+       ));
+       
       var language = this.props.data.language.map(function(language){
         var className = 'bar-expand '+language.name.toLowerCase();
         return <li key={language.name}><span style={{width:language.level, /* backgroundColor: 'coral' */}}className={className}></span><em>{language.name}</em></li>
@@ -56,7 +70,7 @@ class Resume extends Component {
          </div>
       </div>
 
-      <div className="row skill">
+{/*       <div className="row skill">
 
          <div className="three columns header-col">
             <h1><span>Skills</span></h1>
@@ -73,6 +87,17 @@ class Resume extends Component {
 					</ul>
 				</div>
 			</div>
+      </div> */}
+      <div className='row skill'>
+         <div className="three columns header-col_">
+               <h1><span>Skills</span></h1>
+         </div>
+         <div className="skills-categories">
+            {skillsList}
+         </div>
+         <p>
+            {skillmessage}
+         </p>
       </div>
       <div className="row skill">
 

@@ -23,17 +23,17 @@
     "social": [
       {
         "name_": "facebook",
-        "url_": "http://facebook.com/garaisayev",
+        "url_": "https://facebook.com/garaisayev",
         "className_": "fa fa-facebook"
       },
       {
         "name_": "twitter",
-        "url_": "http://twitter.com",
+        "url_": "https://twitter.com",
         "className_": "fa fa-twitter"
       },
       {
         "name_": "instagram",
-        "url_": "http://instagram.com",
+        "url_": "https://instagram.com",
         "className_": "fa fa-instagram"
       },
       {
@@ -43,7 +43,7 @@
       },
       {
         "name": "github",
-        "url": "http://github.com/kanan11",
+        "url": "https://github.com/kanan11",
         "className": "fa fa-github"
       },
       {
@@ -289,6 +289,106 @@
       {
         "name": "Jira",
         "level": "55%"
+      }
+    ],
+    "skills2": [
+      {
+        "categoryName": "Front End Development",
+        "skills": [
+          {"name": "React JS", "level": "85%"},
+          {"name": "Vue JS", "level": "0%"},
+          {"name": "Svelte", "level": "40%"},
+          {"name": "JavaScript", "level": "95%"},
+          {"name": "TypeScript", "level": "95%"}
+        ]
+      },
+      {
+        "categoryName": "Back End Development",
+        "skills": [
+          {"name": "Node JS", "level": "55%"},
+          {"name": "PHP", "level": "25%"},
+          {"name": "Express JS", "level": "0%"},
+          {"name": "Django", "level": "0%"},
+          {"name": "Python", "level": "0%"}
+        ]
+      },
+      {
+        "categoryName": "Database Management",
+        "skills": [
+          {"name": "Redis DB", "level": "35%"},
+          {"name": "MySQL DB", "level": "55%"},
+          {"name": "PreSQL", "level": "0%"}
+        ]
+      },
+      {
+        "categoryName": "Web Development Tools",
+        "skills": [
+          {"name": "Git", "level": "80%"},
+          {"name": "Docker & Containers", "level": "55%"},
+          {"name": "Swagger API", "level": "0%"}
+        ]
+      },
+      {
+        "categoryName": "Version Control & Project Management",
+        "skills": [
+          {"name": "Bitbucket", "level": "55%"},
+          {"name": "Jira", "level": "55%"},
+          {"name": "GIT", "level": "0%"},
+          {"name": "Scrum", "level": "0%"},
+          {"name": "Cypress Test", "level": "0%"}
+        ]
+      },
+      {
+        "categoryName": "E-commerce Integration",
+        "skills": [
+          {"name": "Stripe", "level": "55%"},
+          {"name": "Klarna", "level": "55%"}
+
+        ]
+      },
+      {
+        "categoryName": "Content Management Systems",
+        "skills": [
+          {"name": "WordPress CMS", "level": "45%"},
+          {"name": "Strapi headless CMS", "level": "55%"},
+          {"name": "Joomla CMS", "level": "55%"}
+        ]
+      },
+      {
+        "categoryName": "UI Frameworks & Design",
+        "skills": [
+          {"name": "Material UI", "level": "75%"},
+          {"name": "Tailwind CSS", "level": "75%"},
+          {"name": "Responsive Design", "level": "0%"},
+          {"name": "Figma", "level": "55%"}
+        ]
+      },
+      {
+        "categoryName": "Cloud & Deployment",
+        "skills": [
+          {"name": "Digital Ocean", "level": "55%"},
+          {"name": "Pipline deploy", "level": "55%"}
+        ]
+      },
+      {
+        "categoryName": "Form Libraries",
+        "skills": [
+          {"name": "Formik", "level": "55%"},
+          {"name": "Redux Store", "level": "55%"}
+        ]
+      },
+      {
+        "categoryName": "Operating Systems",
+        "skills": [
+          {"name": "Linux", "level": "0%"}
+        ]
+      },
+      {
+        "categoryName": "Bootloaders & Firmware",
+        "skills": [
+          {"name": "GRUB", "level": "0%"},
+          {"name": "EFI", "level": "0%"}
+        ]
       }
     ]
   },

@@ -373,6 +373,28 @@ ul#nav li.current a { color: #F06000; }
 .hover:hover {
    color: rgb(52, 108, 211);
 }
+
+.skills-categories{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.ul-skills {
+   margin-right: 40px;
+   margin-bottom: 20px;
+   display: block;
+   font-size: 22px;
+   color: black;
+   font-weight: bolder;
+}
+
+.li-skills {
+   color: rgb(29, 29, 96);
+   text-transform: uppercase;
+   font: 20px 'opensans', sans-serif;
+}
+
 /*
 .git {
   	-moz-animation: git 2s ease;
